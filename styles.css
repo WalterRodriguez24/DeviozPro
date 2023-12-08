@@ -579,6 +579,60 @@ hr {
 	font-size: 14px;
 }
 
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: normal;
+	text-align: center;
+  }
+  
+  
+
+  .footer-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  
+  .footer-section {
+	flex: 1;
+	max-width: 300px; 
+	margin: 10px;
+  }
+  
+  .social-icons {
+	display: flex;
+  }
+  
+  .social-icons a {
+	margin-right: 10px; 
+  }
+  .title-footer1{
+	text-align: left;
+	color: rgb(0, 0, 100);
+  }
+  .title-footer-text{
+	text-align: justify;
+	color: rgb(0, 0, 100);
+  }
+  .text-item4{
+	text-align: justify;
+	color: rgb(0, 0, 100);
+  }
+  .title-footer4{
+	text-align: justify;
+	color: rgb(0, 0, 100);
+  }
+  .Mapa-footer{
+
+  }
+  .text-mapa{
+	color: rgb(0, 0, 100);
+
+  }
+  
+
+ 
 /*
 *
 * Components
@@ -2302,8 +2356,8 @@ html .page .group-bottom > *, html .page .group-bottom > *:first-child {
 }
 
 .page .section-60 {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .page .section-80 {
@@ -2440,10 +2494,7 @@ html .page .group-bottom > *, html .page .group-bottom > *:first-child {
 		padding-top: 90px;
 		padding-bottom: 90px;
 	}
-	.page .section-xl-110 {
-		padding-top: 110px;
-		padding-bottom: 110px;
-	}
+	
 	.page .section-xl-140 {
 		padding-top: 140px;
 		padding-bottom: 140px;
@@ -2579,6 +2630,7 @@ html .page .group-bottom > *, html .page .group-bottom > *:first-child {
 	.page .section-lg-top-140 {
 		padding-top: 140px;
 	}
+	
 }
 
 @media (min-width: 1200px) {
