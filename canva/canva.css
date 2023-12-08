@@ -2289,7 +2289,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	overflow-x: hidden;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
-	width: 100%;
+	width: 102%;
 	/* padding-right: 20px; */
 }
 
