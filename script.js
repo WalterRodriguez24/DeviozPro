@@ -873,7 +873,7 @@
 		if (isDesktop && !isNoviBuilder) {
 			$().UItoTop({
 				easingType: 'easeOutQuart',
-				containerClass: 'ui-to-top fa fa-angle-up'
+				containerClass: 'ui-to-top fa bi bi-chevron-up'
 			});
 		}
 
